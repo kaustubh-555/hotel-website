@@ -191,3 +191,48 @@ body{
     background-color: chocolate;
     color:white;
 }
+@media(max-width: 800px){
+    body{
+        margin:none;
+        border: none;
+        padding:none;
+        height: auto;
+    }
+    .content{
+        margin:none;
+        display:flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 0px 10% 0px 10%;
+        border: none;
+        /* padding:none; */
+        /* width:100%; */
+    }
+    .box{
+        width:80%;
+
+    }
+    .menu{
+        /* padding :0px 10% 0px 10%; */
+        padding-left:5%;
+        width:100%;
+        margin:none;
+        border: none;
+        /* display: flex;
+        flex-direction: column; */
+        }
+    #veg{
+        padding: 0px 5% 5% 5%;
+        width:70%;
+    }
+    .price{
+        padding:0px 5% 5% 10%; 
+    }
+    .dish{
+        padding:0px 5% 5% 0px; 
+
+    }
+    .login textarea{
+        max-width: 70%;
+    }
+}
